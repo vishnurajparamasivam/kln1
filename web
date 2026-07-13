@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLN College of Engineering - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="college-name">KLN COLLEGE OF ENGINEERING</h1>
+
+        <img src="logo.png" alt="College Logo" class="logo">
+    </header>
+
+    <!-- Login Form -->
+    <div class="login-container">
+
+        <h2>Student Login</h2>
+
+        <form>
+
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your Name"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your Password"
+                required
+            >
+
+            <button type="submit">Login</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
